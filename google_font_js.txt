@@ -1,0 +1,13 @@
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Alegreya:400italic,700italic,900italic,400,700,900:latin', 'Merriweather:400,300,900italic,900,700,700italic,400italic,300italic:latin', 'Merriweather+Sans:400,800italic,800,700italic,700,400italic,300italic,300:latin', 'Montserrat:400,700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
